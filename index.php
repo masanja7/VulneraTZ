@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masanja7 VulneraTZ - Cyber Intelligence & Defense</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0a0a0a;
+      color: #00ffae;
+      background-image: url('https://images.unsplash.com/photo-1614064641938-b8f9b747a12c');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      backdrop-filter: blur(2px);
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.85);
+      max-width: 1000px;
+      margin: 4rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffae;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #00ffe1;
+      margin-bottom: 0.6rem;
+    }
+    ul {
+      list-style: square;
+      padding-left: 2rem;
+      max-width: 600px;
+      margin: 1rem auto 3rem auto;
+    }
+    li {
+      margin: 0.7rem 0;
+      line-height: 1.8;
+    }
+    .service {
+      margin-bottom: 2rem;
+      border-left: 5px solid #00ffae;
+      padding-left: 1rem;
+    }
+    .critical { color: #ff004c; font-weight: bold; }
+    .high { color: #ff9500; font-weight: bold; }
+    .medium { color: #ffd700; font-weight: bold; }
+    .low { color: #90ee90; font-weight: bold; }
+    nav {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      margin: 0 1rem;
+      padding: 0.6rem 1rem;
+      background-color: #00ffae;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #008f7a;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #008f7a;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Masanja7 VulneraTZ</h1>
+    <h2>Cyber Intelligence & Project Risk Solutions</h2>
+
+    <div class="service">
+      <h3 class="critical">1. Cybersecurity Consulting (Critical)</h3>
+      <p>We identify, classify, and patch high-risk vulnerabilities across your infrastructure. Ignoring this service can result in total system compromise and data loss. Ideal for businesses, institutions, and public infrastructure.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="critical">2. Red Team & Blue Team Simulations (Critical)</h3>
+      <p>Realistic adversarial simulations and defense drills to test your security under pressure. Red team attacks. Blue team defends. Ignoring this puts your system at extreme risk of stealth attacks.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="high">3. Ethical Hacking & Exploitation (High)</h3>
+      <p>We ethically break into your system to expose weaknesses before real hackers do. Includes web, API, and mobile exploitation techniques.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="medium">4. Bug Bounty Hunting (Masanja Methodology) (Medium)</h3>
+      <p>Using a professional step-by-step approach to simulate how attackers hunt bugs in your system. Great for improving your security posture before public disclosure.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="high">5. Threat Intelligence & OSINT Recon Platforms (High)</h3>
+      <p>We build automated platforms to gather intelligence from the open web. Ideal for governments, companies, and activists. Threat feeds, geo-monitoring, and custom alerts.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="medium">6. Strategic Diplomacy & Cyber Mediation (Medium)</h3>
+      <p>Cyber conflicts are rising. We provide negotiation and peacebuilding services between groups, organizations, or states through cyber diplomacy techniques.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="low">7. Psychology-Driven Social Engineering Protection (Low)</h3>
+      <p>We analyze human behavior and train your staff to avoid manipulation and phishing attacks. Social engineering is a gateway for most breaches.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="medium">8. Full-Stack Project Development (Medium)</h3>
+      <p>We build secure and scalable software in Python, Node.js, and mobile platforms. Includes secure authentication, API design, and bug-free launch strategies.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="high">9. Custom Red Team Labs & Learning Environments (High)</h3>
+      <p>Want to train like the pros? We build hands-on cyber ranges tailored for your environment, packed with real-world scenarios.</p>
+    </div>
+
+    <div class="service">
+      <h3 class="medium">10. Web3 & Smart Contract Security Development (Medium)</h3>
+      <p>Blockchain is only as secure as your code. We write and audit smart contracts for maximum resilience, protecting your DeFi and NFT assets.</p>
+    </div>
+
+    <h2>Masanja7 Mindset</h2>
+    <ul>
+      <li>"Hacking isn't just a skill; it's a mindset that challenges the norm and embraces the unknown."</li>
+      <li>"Unused knowledge is wasted. I learn to do, not just to know."</li>
+      <li>"Redefine frameworks and push beyond limits to gain practical knowledge in hacking."</li>
+      <li>"Africans must act, build, and secure their future—not wait to be saved."</li>
+    </ul>
+
+    <nav>
+      <a href="Advanced-Bug-Bounty-Methodologies.php">Bug Bounty Methodologies</a>
+      <a href="bugbounty-checklist.php">Bug Bounty Checklist</a>
+    </nav>
+  </div>
+
+  <footer>
+    &copy; 2025 Masanja7 VulneraTZ. Made to defend, disrupt, and develop.
+  </footer>
+</body>
+</html>
